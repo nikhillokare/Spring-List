@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean class="com.bean.Singer" id="sing">
+   <property name="SingerName" value="Nikhil"></property>
+   <property name="singerdate_of_birth" value="24th Nov 1998"></property>
+   <property name="age" value="24"></property>
+   
+   <property name="songlist">
+   <list>
+       <value>Song1</value> 
+       <value>Song2</value>
+       <value>Song3</value>
+       <value>Song4</value>
+       <value>Song5</value>
+       <value>Song6</value>
+   </list>
+   </property>
+   </bean>
+   </beans>
